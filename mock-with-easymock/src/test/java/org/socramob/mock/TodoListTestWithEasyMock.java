@@ -4,7 +4,7 @@ import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TodoListShould {
+public class TodoListTestWithEasyMock {
 	private Printer mockPrinter;
 	private TodoList todoList;
 
@@ -17,7 +17,7 @@ public class TodoListShould {
 	}
 
 	@Test
-	public void printTodosRowWise() throws OutOfPaperException {
+	public void shouldPrintTodos() throws OutOfPaperException {
 		mockPrinter.print("To-Dos for today");
 		mockPrinter.crlf();
 		mockPrinter.print("- feed the cat");
