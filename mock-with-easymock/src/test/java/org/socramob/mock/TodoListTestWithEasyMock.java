@@ -11,6 +11,7 @@ public class TodoListTestWithEasyMock {
 	@Before
 	public void setup() {
 		mockPrinter = EasyMock.createMock(Printer.class);
+		
 		todoList = new TodoList();
 		todoList.add("feed the cat");
 		todoList.add("finish taxstatement");

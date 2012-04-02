@@ -11,6 +11,13 @@ public class TodoList {
 		todos.add(todo);
 	}
 
+	public void print(NaivePrinter printer) {
+		printer.print("To-Dos for today\n");
+		for (String todo : todos) {
+			printer.print("- " + todo + "\t[ ]\n");
+		}
+	}
+	
 	public void print(Printer printer) {
 		try {
 			printer.print("To-Dos for today");
