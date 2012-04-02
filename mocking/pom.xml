@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.socramob.mock</groupId>
-  <artifactId>mock-with-easymock</artifactId>
+  <artifactId>mocking</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>mock-with-easymock</name>
+  <name>mocking</name>
   <url>http://maven.apache.org</url>
 
   <properties>
