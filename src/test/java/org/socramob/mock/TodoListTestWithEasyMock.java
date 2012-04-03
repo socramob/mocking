@@ -10,8 +10,6 @@ public class TodoListTestWithEasyMock {
 
 	@Before
 	public void setup() {
-		mockPrinter = EasyMock.createMock(Printer.class);
-		
 		todoList = new TodoList();
 		todoList.add("feed the cat");
 		todoList.add("finish taxstatement");
@@ -19,6 +17,8 @@ public class TodoListTestWithEasyMock {
 
 	@Test
 	public void shouldPrintTodos() throws OutOfPaperException {
+		mockPrinter = EasyMock.createMock(Printer.class);
+
 		mockPrinter.print("To-Dos for today");
 		mockPrinter.crlf();
 		mockPrinter.print("- feed the cat");
