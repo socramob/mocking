@@ -40,3 +40,7 @@ Quellen
  * Avdi Grimm: ["Making a Mockery of TDD"](http://devblog.avdi.org/2011/09/06/making-a-mockery-of-tdd/)
  * <a href="http://www.amazon.de/gp/product/0131495054/ref=as_li_ss_tl?ie=UTF8&tag=socramob-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=0131495054">Gerard Meszaros: "xUnit Test Patterns"</a><img src="http://www.assoc-amazon.de/e/ir?t=socramob-21&l=as2&o=3&a=0131495054" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  * <a href="http://www.amazon.de/gp/product/3898642208/ref=as_li_ss_tl?ie=UTF8&tag=socramob-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898642208">Frank Westphal: "Testgetriebene Entwicklung mit JUnit & FIT"</a><img src="http://www.assoc-amazon.de/e/ir?t=socramob-21&l=as2&o=3&a=3898642208" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+
+ * [EasyMock](http://easymock.org/)
+ * [Mockito](http://mockito.org/)
