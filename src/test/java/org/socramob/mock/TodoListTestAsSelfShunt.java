@@ -20,8 +20,8 @@ public class TodoListTestAsSelfShunt implements NaivePrinter {
 		printerOutput = "";
 	}
 	
-	public void print(String line) {
-		printerOutput += line;
+	public void print(String text) {
+		printerOutput += text;
 	}
 	
 	@Test
